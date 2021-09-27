@@ -15,7 +15,7 @@ DROP SCHEMA IF EXISTS `Marios_pizza` ;
 -- -----------------------------------------------------
 -- Schema Marios_pizza
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `Marios_pizza` DEFAULT CHARACTER SET utf8 ;
+CREATE SCHEMA IF NOT EXISTS `Marios_pizza` DEFAULT CHARACTER SET utf8mb4;
 USE `Marios_pizza` ;
 
 -- -----------------------------------------------------
