@@ -104,7 +104,6 @@ CREATE TABLE IF NOT EXISTS `marios_pizza`.`city` (
     FOREIGN KEY (`Municipality_ID`)
     REFERENCES `marios_pizza`.`municipality` (`ID`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 2451
 DEFAULT CHARACTER SET = utf8mb3;
 
 
@@ -130,7 +129,6 @@ CREATE TABLE IF NOT EXISTS `marios_pizza`.`coupon` (
   `Deleted` TINYINT NOT NULL DEFAULT '0',
   PRIMARY KEY (`ID`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 8
 DEFAULT CHARACTER SET = utf8mb3;
 
 
@@ -203,7 +201,6 @@ CREATE TABLE IF NOT EXISTS `marios_pizza`.`deliverytype` (
   `Deleted` TINYINT NOT NULL DEFAULT '0',
   PRIMARY KEY (`ID`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 4
 DEFAULT CHARACTER SET = utf8mb3;
 
 
@@ -266,7 +263,6 @@ CREATE TABLE IF NOT EXISTS `marios_pizza`.`shop` (
     FOREIGN KEY (`OpeningTime_ID`)
     REFERENCES `marios_pizza`.`openingtime` (`ID`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 145
 DEFAULT CHARACTER SET = utf8mb3;
 
 
@@ -749,7 +745,6 @@ CREATE TABLE IF NOT EXISTS `marios_pizza`.`street` (
     FOREIGN KEY (`City_ID`)
     REFERENCES `marios_pizza`.`city` (`ID`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 117721
 DEFAULT CHARACTER SET = utf8mb3;
 
 
